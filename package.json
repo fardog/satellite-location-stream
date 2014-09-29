@@ -1,0 +1,33 @@
+{
+  "name": "satellite-location-stream",
+  "version": "1.0.0",
+  "description": "Get information about current satellite locations as a readable stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fardog/satellite-stream.git"
+  },
+  "keywords": [
+    "satellite",
+    "latitude",
+    "longitude"
+  ],
+  "author": "Nathan Wittstock <nate@milkandtang.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fardog/satellite-stream/issues"
+  },
+  "homepage": "https://github.com/fardog/satellite-stream",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "through2": "^0.6.2"
+  },
+  "dependencies": {
+    "debug": "^2.0.0",
+    "request": "^2.44.0"
+  }
+}

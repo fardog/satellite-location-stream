@@ -1,4 +1,4 @@
-# satellite-location-stream 1.0.0
+# satellite-location-stream 1.0.1
 
 Get information about current satellite locations (via [Where the ISS at?][where]) as a readable stream.
 
@@ -109,6 +109,9 @@ Feel free to send pull requests! I'm not picky, but would like the following:
 2. Be sure to point out any changes that break API.
 
 ## History
+
+- **v1.0.1**  
+Now stops requests to Where the ISS at? if our stream's buffer is filled, and re-starts after it's consumed.
 
 - **v1.0.0**  
 Initial Release.
